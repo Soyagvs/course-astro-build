@@ -1,8 +1,9 @@
 ---
+layout: '../../layouts/MarkdownLayout.astro'
 title: 'Mi primera publicación en el blog'
 pubDate: 2022-07-01
 description: 'Este es la primera publicación de mi nuevo blog Astro.'
-author: 'Alumno de Astro'
+author: 'Agustin Martinez'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'El logotipo completo de Astro.'
@@ -26,3 +27,10 @@ Publicado el: 2022-07-01
 ## Próximos pasos
 
 Terminaré el tutorial de Astro, y luego seguiré añadiendo más publicaciones. Mira este espacio para más por venir.
+
+<style>
+    h1 {
+        color: purple;
+        font-size: 4rem;
+    }
+</style>
