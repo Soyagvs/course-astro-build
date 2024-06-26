@@ -1,6 +1,8 @@
 ---
 import "../styles/global.css";
-import Navigation from "../components/Navigation.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Hamburguer from "../components/Hamburguer.astro";
 
 const pageTitle = "Pagina de inicio";
 ---
@@ -14,7 +16,8 @@ const pageTitle = "Pagina de inicio";
 		<title>{pageTitle}</title>
 	</head>
 	<body>
-		<Navigation />
+		<Hamburguer />
+		<Header />
 		<h1>Bienvenidos al curso de Astro</h1>
 		<p>
 			Este curso fue hecho con el tutorial de la documentacion
@@ -22,5 +25,9 @@ const pageTitle = "Pagina de inicio";
 				https://astro.build/
 			</a>
 		</p>
+		<Footer />
 	</body>
 </html>
+<script>
+	import "../scripts/menu.js"
+</script>
